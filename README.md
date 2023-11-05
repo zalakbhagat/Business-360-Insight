@@ -30,8 +30,13 @@ This project was developed while following the Codebasics Power BI Course, which
 - Grasping the nuances of COGS, YTD, and YTG
 - Comprehending the sales channels including direct, retailer, and distributors
 
-## Company Background
-AtliQ Hardware, now a global presence, retails computer hardware through retailers, direct sales, and distributors. Recently, the company encountered unexpected losses in the American market due to inadequate data-driven decision-making, highlighting the need for an analytics-driven approach to regain competitive advantage.
+## Company Background - AtliQ Hardware
+
+AtliQ Hardware has experienced significant growth in recent years, expanding its global footprint. The company specializes in the sale of computers and computer accessories, operating through three primary sales channels:
+
+- **Retailers:** Partnering with various retail outlets to reach customers where they shop.
+- **Direct Sales:** Selling directly to consumers through corporate sales teams and online platforms.
+- **Distributors:** Working with a network of distributors to manage bulk sales and logistics.
 
 ## Project Kickoff
 Before diving into the dashboard creation, it's crucial to align on the project's objectives, success metrics, timelines, stakeholder expectations, potential challenges, and data requirements.
@@ -95,23 +100,43 @@ This thorough dataset serves as the backbone for the analysis performed in this 
 
 Data modeling is the bedrock upon which our entire reporting structure is built. It is the framework that dictates how data is connected, processed, and presented in the form of visuals.
 
-**Key Considerations in Data Modeling:**
+You can view the data model ([Data Model](https://github.com/zalakbhagat/Business-360-Insight/blob/main/Data%20Model.png)).
 
-- **Structural Integrity:** A well-structured data model ensures the relationship between different data types is logically and efficiently organized.
-- **Performance:** Efficient data models significantly enhance the performance of Power BI reports, ensuring swift data refreshes and responsive visualizations.
-- **Scalability:** Good data models are scalable, allowing for additional data to be incorporated with minimal rework.
+## Dashboard Views
 
-A poorly constructed data model can lead to suboptimal report performance, potentially affecting the user experience and the accuracy of insights derived from the data.
+The dashboard is segmented into specialized views, each providing a unique lens through which to interpret AtliQ Hardware's operational data:
 
+You can view the data model ([Dashboard View](https://github.com/zalakbhagat/Business-360-Insight/blob/main/Home%20view.png)).
 
-## Views and Features
-- Home View: Central navigation to all sections of the report.
-- Info, Finance, Sales, Marketing, Supply Chain, Executive, and Products Views: Dedicated pages for detailed insights.
-- Support: Information on getting assistance with the dashboard.
+### 📊 Finance View
+Dive deep into financial health with detailed P&L analysis, net sales trends, top-performing products and clients, and essential financial insights that drive strategic planning.
 
-## Report Snapshots and GIFs
-- Overall Report: `Overall_Report.gif` (Note: Replace with actual GIF or image link)
-- Info Page: `Info.gif` (Note: Replace with actual GIF or image link)
-- [Continue with other views]
+You can view the data model ([Finance View](https://github.com/zalakbhagat/Business-360-Insight/blob/main/Finance%20view.png)).
 
-(Note: Replace placeholders with actual data, links, and file paths relevant to your project.)
+### 📈 Sales View
+Explore in-depth customer and product performance, engage with matrix analysis, and understand the unit economics that shape profitability and sales strategies.
+
+You can view the data model ([Sales View](https://github.com/zalakbhagat/Business-360-Insight/blob/main/Sales%20View.png)).
+
+### 📣 Marketing View
+Unlock critical product and market insights, analyze gross margin and net profit percentages, and dissect segment-specific metrics to optimize marketing initiatives.
+
+You can view the data model ([Marketing View](https://github.com/zalakbhagat/Business-360-Insight/blob/main/Marketing%20View.png)).
+
+### 🌐 Supply Chain View
+Investigate forecast accuracy and errors, glean customer insights, and evaluate key product metrics to streamline supply chain processes and enhance operational efficiency.
+
+You can view the data model ([Supply Chain View](https://github.com/zalakbhagat/Business-360-Insight/blob/main/Supply%20Chain%20view.png)).
+
+### 🔍 Executive View
+Gain a high-level perspective on business zones, revenue streams, gross margin and net profit percentages, as well as market share trends that inform executive decision-making.
+
+You can view the data model ([Executive View](https://github.com/zalakbhagat/Business-360-Insight/blob/main/Executive%20view.png)).
+
+Each view is designed to support comprehensive analysis and foster data-driven decisions across all levels of the organization.
+
+## Live Report
+
+To see the live version of the Power BI dashboard, please visit the following link:
+
+[View Live Report](https://app.powerbi.com/view?r=eyJrIjoiZjM5MDhlM2UtMmFlYy00ZjdjLWEwYTctN2FhM2Q4N2JlZDhhIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
